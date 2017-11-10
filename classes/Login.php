@@ -36,7 +36,6 @@ class Login
         // login via post data (if user just submitted a login form)
         elseif (isset($_POST["login"])) {
             $this->dologinWithPostData();
-            $this->getUsers();
         }
 
 
@@ -109,20 +108,11 @@ class Login
     }
 
 
-    public function getUsers(){
-      $query = mysql_query("SELECT user_name FROM users");
+    /**
+     *
+     */
 
-        // set array
-        $allUsers = array();
 
-        // look through query
-        while($row = mysql_fetch_assoc($query)){
-
-          // add each row returned into an array
-          $allUsers[] = $row;
-        }
-
-    }
     /**
      * perform the logout
      */

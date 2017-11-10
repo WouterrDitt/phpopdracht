@@ -1,5 +1,5 @@
-
 <?php
+
 /**
  * A simple, clean and secure PHP Login Script / MINIMAL VERSION
  *
