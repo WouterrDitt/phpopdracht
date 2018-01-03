@@ -21,7 +21,7 @@
     <div class="row">
       <div class="col s8 push-s1 red lighten-2 z-depth-2 quiz">
         <div class="card blue-grey darken-1">
-          <table class="table-responsive">
+          <table class="table-responsive  white-text">
 
     <!--             Table head             --->
            <thead>
